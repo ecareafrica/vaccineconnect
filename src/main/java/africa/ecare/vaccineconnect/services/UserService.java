@@ -27,4 +27,8 @@ public class UserService {
 			return null;
 		}
 	}
+
+	public void sendReminder(long l) {
+		// Sms Engine Removed to prevent abuse of credits
+	}
 }
